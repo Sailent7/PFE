@@ -1,0 +1,41 @@
+.foto_personal {
+    max-width: 50%;
+    border-radius: 50%;
+}
+
+.contenedor_superior {
+    padding-top: 10px;
+}
+
+.contenedor_nombre {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.contenedor_foto_texto {
+    display: inline-flex;
+}
+
+#contenedor_main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+#contenedor_footer {
+    display: flex;
+    flex-direction: row;
+    min-height: 100px;
+}
+
+.container {
+    border: 2px solid blue;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.contenedor_descripcion,
+.contenedor_experiencia {
+    min-height: 400px;
+}
